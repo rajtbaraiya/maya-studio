@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.container .box .dream {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+    gap: 50px;
+}
+
+.container .box .dream img {
+    width: 100%;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.wh1{
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 50px;
+    font-family: "Merriweather", serif;
+   
+}
+
+.ai{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+
+}
+.ai img{
+    padding-top: 40px;
+   padding-left: 20px;
+    height: 100px;
+    width: 100px;
+}
+
+.wheader
+{
+    min-height: 700px;
+    background-image: radial-gradient(rgba(255,255,255,0), rgba(0,0,0,.9)),
+    url(assets/images/wed4.JPG);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.eheader
+{
+    min-height: 700px;
+    background-image: radial-gradient(rgba(255,255,255,0), rgba(0,0,0,.9)),
+    url(assets/images/engbglogo.JPG);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.galheader
+{
+    min-height: 700px;
+    background-image: radial-gradient(rgba(255,255,255,0), rgba(0,0,0,.9)),
+    url(assets/images/wed21.JPG);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.preheader
+{
+    min-height: 700px;
+    background-image: radial-gradient(rgba(255,255,255,0), rgba(0,0,0,.9)),
+    url(assets/images/prel.JPG);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.pheader
+{
+    min-height: 700px;
+    background-image: radial-gradient(rgba(255,255,255,0), rgba(0,0,0,.9)),
+    url(assets/images/8.JPG);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.mheader
+{
+    min-height: 700px;
+    background-image: radial-gradient(rgba(255,255,255,0), rgba(0,0,0,.9)),
+    url(assets/images/portraitsplogo.JPG);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media only screen and (max-width: 769px) {
+    .container .box {
+        flex-direction: column;
+    }
+
+    .container .box .dream {
+        width: 100%; /* Full width for smaller screens */
+    }
+}
+
+@media (width > 540px)
+{
+    .wheader
+    {
+        height: 100%;
+        width: 100%;
+    }
+    .galheader
+    {
+        height: 100%;
+        width: 100%;
+    }
+    .eheader
+    {
+        height: 100%;
+        width: 100%;
+    }
+    .mheader
+    {
+        height: 100%;
+        width: 100%;
+    }
+    .pheader
+    {
+        height: 100%;
+        width: 100%;
+    }
+
+    .preheader
+    {
+        height: 100%;
+        width: 100%;
+    }
+  
+}
+
+@media (width > 768px)
+{
+    .wheader
+    {
+        height: 100%;
+        width: 100%;
+    }
+    .eheader
+    {
+        height: 100%;
+        width: 100%;
+    }
+    .galheader
+    {
+        height: 100%;
+        width: 100%;
+    }
+    .preheader
+    {
+        height: 100%;
+        width: 100%;
+    }
+    .mheader
+    {
+        height: 100%;
+        width: 100%;
+    }
+    .pheader
+    {
+        height: 100%;
+        width: 100%;
+    }
+    
+}
+
+@media (width > 1024px)
+{
+    .wheader
+    {
+       height: 100%;
+
+    }
+    .mheader
+    {
+       height: 100%;
+
+    }
+     .pheader
+    {
+       height: 100%;
+
+    }
+
+    .eheader
+    {
+       height: 100%;
+
+    }
+
+    .preheader
+    {
+       height: 100%;
+
+    }
+    .galheader
+    {
+       height: 100%;
+       width: 100%;
+
+    }
+}
